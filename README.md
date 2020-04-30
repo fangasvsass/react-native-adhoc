@@ -8,10 +8,6 @@
 npm install react-native-adhoc --save
 ```
 
-## 注意
-
-* 安装完后，需要执行 `react-native link`。如果出错了，手动配置一下即可，具体可参考[手动配置](documents/manual.md)
-
 ## 配置
 
 ### 链接原生库
@@ -51,7 +47,7 @@ AdhocConfig adhocConfig = new AdhocConfig.Builder()
 
 AdhocTracker.init(adhocConfig);
 ```
-### 示例代码
+### 实例代码
 ```
 请运行 example 里面示例代码，查看 API 调用示例。
 ```

@@ -1,0 +1,33 @@
+{
+  "name": "AdhocDemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+<<<<<<< HEAD
+    "react": "16.2.0",
+    "react-native": "^0.53.3",
+    "react-native-adhoc": "~0.0.4",
+    "react-navigation": "^1.4.0"
+=======
+    "react": "16.6.1",
+    "react-native": "^0.57.5",
+    "react-native-adhoc": "^1.1.8",
+    "react-native-windows": "^0.57.0-rc.0",
+    "react-navigation": "1.4.0"
+>>>>>>> e5f6e2c76e3749f914c7de3b86a0a67d7e241061
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "^3.0.2",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.2",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
