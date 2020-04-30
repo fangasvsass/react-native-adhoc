@@ -1,6 +1,6 @@
 {
-  "name": "react-native-adhoc",
-  "version": "3.1.2",
+  "name": "react-native-letote-adhoc",
+  "version": "3.7.0",
   "description": "AdhocSDK for react native application",
   "main": "index.js",
   "scripts": {
@@ -17,12 +17,6 @@
     "adhocsdk"
   ],
   "dependencies": {
-    "glob": "^5.0.15",
-    "inquirer": "1.1.2",
-    "plist": "3.0.1",
-    "lodash": "4.17.2",
-    "xcode": "^1.0.0",
-    "path": "^0.12.7"
   },
   "author": "AppAdhoc Technology Co.Ltd.",
   "license": "ISC",
@@ -31,24 +25,5 @@
   },
   "homepage": "https://github.com/AppAdhoc/react-native-adhoc#readme",
   "peerDependencies": {
-    "react-native": "^0.57.0",
-    "react-native-windows": "0.41.0-rc.1"
-  },
-  "rnpm": {
-    "android": {
-      "packageInstance": "new AppadhocPackage()"
-    },
-    "ios": {
-      "sharedLibraries": [
-        "libsqlite3",
-        "libicucore",
-        "CFNetwork",
-        "Security"
-      ]
-    },
-    "commands": {
-      "postlink": "node node_modules/react-native-adhoc/scripts/postlink",
-      "postunlink": "node node_modules/react-native-adhoc/scripts/postunlink"
-    }
   }
 }
